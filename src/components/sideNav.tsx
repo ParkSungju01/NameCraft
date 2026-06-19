@@ -15,7 +15,7 @@ export default function SideNav() {
   const pathname = usePathname();
 
   return (
-    <nav className="w-65 h-screen border-r border-gray-300 p-4 bg-white flex flex-col items-start py-10 px-2">
+    <nav className="w-65 h-screen border-r border-gray-300 bg-white flex flex-col items-start py-8 px-2">
       <ul className="space-y-4 px-2 w-full">
         {menus.map((menu) => {
           const Icon = menu.icon;
